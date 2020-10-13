@@ -26,7 +26,7 @@ include(cmake/CPM.cmake)
 # PackageProject.cmake will be used to make our target installable
 CPMAddPackage(
   NAME PackageProject.cmake
-  GITHUB_REPOSITORY TheLartians/PackageProject.cmake
+  GITHUB_REPOSITORY kensou24/PackageProject.cmake
   VERSION 1.3
 )
 

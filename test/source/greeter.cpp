@@ -13,6 +13,7 @@ TEST_CASE("Greeter") {
   CHECK(greeter.greet(LanguageCode::DE) == "Hallo Tests!");
   CHECK(greeter.greet(LanguageCode::ES) == "¡Hola Tests!");
   CHECK(greeter.greet(LanguageCode::FR) == "Bonjour Tests!");
+  CHECK(greeter.greet(LanguageCode::CN) == "你好 Tests!");
 }
 
 TEST_CASE("Greeter version") {
