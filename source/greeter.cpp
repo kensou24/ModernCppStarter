@@ -19,3 +19,7 @@ std::string Greeter::greet(LanguageCode lang) const {
       return "你好 " + name + "!";
   }
 }
+
+std::string Greeter::notCalledFunc() const{
+  return {"not called funcion"};
+}
